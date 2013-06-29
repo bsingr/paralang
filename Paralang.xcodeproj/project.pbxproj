@@ -17,6 +17,8 @@
 		E4458427177E15EE008D8F8F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4458407177E15EE008D8F8F /* Cocoa.framework */; };
 		E445842F177E15EE008D8F8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E445842D177E15EE008D8F8F /* InfoPlist.strings */; };
 		E4458432177E15EE008D8F8F /* ParalangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4458431177E15EE008D8F8F /* ParalangTests.m */; };
+		E4BF393A177F00A6002EA846 /* UFKRecordsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BF3938177F00A6002EA846 /* UFKRecordsTableViewController.m */; };
+		E4BF393B177F00A6002EA846 /* UFKRecordsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4BF3939177F00A6002EA846 /* UFKRecordsTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		E445842E177E15EE008D8F8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E4458430177E15EE008D8F8F /* ParalangTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParalangTests.h; sourceTree = "<group>"; };
 		E4458431177E15EE008D8F8F /* ParalangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParalangTests.m; sourceTree = "<group>"; };
+		E4BF3937177F00A6002EA846 /* UFKRecordsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFKRecordsTableViewController.h; path = ../../paralang/Paralang/UFKRecordsTableViewController.h; sourceTree = "<group>"; };
+		E4BF3938177F00A6002EA846 /* UFKRecordsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFKRecordsTableViewController.m; path = ../../paralang/Paralang/UFKRecordsTableViewController.m; sourceTree = "<group>"; };
+		E4BF3939177F00A6002EA846 /* UFKRecordsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UFKRecordsTableViewController.xib; path = ../../paralang/Paralang/UFKRecordsTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,9 @@
 				E445841A177E15EE008D8F8F /* UFKAppDelegate.m */,
 				E445841C177E15EE008D8F8F /* MainMenu.xib */,
 				E445840E177E15EE008D8F8F /* Supporting Files */,
+				E4BF3937177F00A6002EA846 /* UFKRecordsTableViewController.h */,
+				E4BF3938177F00A6002EA846 /* UFKRecordsTableViewController.m */,
+				E4BF3939177F00A6002EA846 /* UFKRecordsTableViewController.xib */,
 			);
 			path = Paralang;
 			sourceTree = "<group>";
@@ -228,6 +236,7 @@
 				E4458412177E15EE008D8F8F /* InfoPlist.strings in Resources */,
 				E4458418177E15EE008D8F8F /* Credits.rtf in Resources */,
 				E445841E177E15EE008D8F8F /* MainMenu.xib in Resources */,
+				E4BF393B177F00A6002EA846 /* UFKRecordsTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +273,7 @@
 			files = (
 				E4458414177E15EE008D8F8F /* main.m in Sources */,
 				E445841B177E15EE008D8F8F /* UFKAppDelegate.m in Sources */,
+				E4BF393A177F00A6002EA846 /* UFKRecordsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

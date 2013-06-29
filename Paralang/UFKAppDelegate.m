@@ -7,12 +7,20 @@
 //
 
 #import "UFKAppDelegate.h"
+#import "UFKRecordsTableViewController.h"
+
+@interface UFKAppDelegate ()
+
+@property (nonatomic) UFKRecordsTableViewController *recordsController;
+
+@end
 
 @implementation UFKAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    self.recordsController = [UFKRecordsTableViewController controller];
+    [self.window setContentView:self.recordsController.view];
 }
 
 @end
