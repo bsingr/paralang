@@ -40,9 +40,10 @@
             
             if ([itemsAtRow count] > 30) {
                 
-                if ([[tableColumn identifier] isEqualToString:@"createdAt"]) {
+                NSString *identifier = [tableColumn identifier];
+                if ([identifier isEqualToString:@"createdAt"]) {
                     itemAtRowAndColumn = [itemsAtRow objectAtIndex:13];
-                } else if ([[tableColumn identifier] isEqualToString:@"weight"]) {
+                } else if ([identifier isEqualToString:@"weight"]) {
                     itemAtRowAndColumn = [itemsAtRow objectAtIndex:27];
                 }
                 
