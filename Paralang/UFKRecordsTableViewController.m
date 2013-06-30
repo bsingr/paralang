@@ -45,6 +45,10 @@
                     itemAtRowAndColumn = [itemsAtRow objectAtIndex:13];
                 } else if ([identifier isEqualToString:@"weight"]) {
                     itemAtRowAndColumn = [itemsAtRow objectAtIndex:27];
+                } else if ([identifier isEqualToString:@"fat"]) {
+                    itemAtRowAndColumn = [itemsAtRow objectAtIndex:31];
+                } else if ([identifier isEqualToString:@"muscleMass"]) {
+                    itemAtRowAndColumn = [itemsAtRow objectAtIndex:43];
                 }
                 
                 if (itemAtRowAndColumn) {
