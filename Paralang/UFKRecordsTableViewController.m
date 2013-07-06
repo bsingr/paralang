@@ -49,6 +49,10 @@
                     itemAtRowAndColumn = [itemsAtRow objectAtIndex:31];
                 } else if ([identifier isEqualToString:@"muscleMass"]) {
                     itemAtRowAndColumn = [itemsAtRow objectAtIndex:43];
+                } else if ([identifier isEqualToString:@"bodyMassIndex"]) {
+                    itemAtRowAndColumn = [itemsAtRow objectAtIndex:29];
+                } else if ([identifier isEqualToString:@"energyConsumption"]) {
+                    itemAtRowAndColumn = [itemsAtRow objectAtIndex:59];
                 }
                 
                 if (itemAtRowAndColumn) {
