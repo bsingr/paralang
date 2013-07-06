@@ -42,7 +42,9 @@
                 
                 NSString *identifier = [tableColumn identifier];
                 if ([identifier isEqualToString:@"createdAt"]) {
-                    itemAtRowAndColumn = [itemsAtRow objectAtIndex:13];
+                    NSString *date = [itemsAtRow objectAtIndex:13];
+                    NSString *time = [itemsAtRow objectAtIndex:15];
+                    itemAtRowAndColumn = [NSString stringWithFormat:@"%@ %@", date, time];
                 } else if ([identifier isEqualToString:@"weight"]) {
                     itemAtRowAndColumn = [itemsAtRow objectAtIndex:27];
                 } else if ([identifier isEqualToString:@"fat"]) {
